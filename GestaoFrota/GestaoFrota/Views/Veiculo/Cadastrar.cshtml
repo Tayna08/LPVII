@@ -1,0 +1,15 @@
+﻿@model GestaoFrota.Models.Veiculo
+
+<h2>Cadastrar Novo Veículo</h2>
+
+<form asp-action="Cadastrar" method="post">
+    <div>
+        <label>Placa:</label>
+        <input asp-for="Placa" />
+    </div>
+    <div>
+        <label>Modelo:</label>
+        <input asp-for="Modelo" />
+    </div>
+    <button type="submit">Salvar Veículo</button>
+</form>
